@@ -15,7 +15,8 @@ function map(arr, func) {
     let newArray = [];
     // loop through the arr we took in above using .length
     for(let i = 0; i < arr.length; i++) {
-        //
+        // for the newArray we set the value, for that specific index, equal to the func, which is equal to the...give it
+    
         newArray[i] = func(arr[i]);
     }
     // return said new array
